@@ -1,0 +1,43 @@
+Erori. Reprezentare numerelor in virgula flotanta
+
+x = d0d1d2d3 ... dp-1 x B^e
+di - mantisa . d0 != 0 -> normalizat
+p - precizia
+
+eps - epsilonul masinii
+eps ~ 10^-16
+eps(100) ~ 10^-13
+eps(1000000) - 10^-10
+
+IEEE 754
+
+Simpla precizie 
+1| 8 biti | 24 biti
+s  e + D    p
+
+Dublu precizie
+1|   11   | 53 
+s   e + D | p
+
+TODO:
+1. Calculati epsilonul masinii
+  1 + x/2 != 1 
+  eps = 2^-52
+  realmin = 2^1022
+  realmax = (2-eps) * 2^1023
+
+ 2. Sin|Cos
+ y - MySin (x,err)
+ 
+ 3. -
+ 
+ 4. [s, e+D, m] = RepBin(x) (Tine cont de  IEE754)
+ format hex 
+ www.math.ubbcluj.ro
+ 
+ 
+ TODO:
+ 1. Transformarea numerelor in binar
+ 
+ Denormalizat 
+ Partea de exponent 8 sau 11 biti este toata zero
