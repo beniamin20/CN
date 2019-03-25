@@ -1,0 +1,1 @@
+result = MyFunc(3,4)
