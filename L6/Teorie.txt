@@ -1,0 +1,20 @@
+Interpolare.
+Interpolare LaGrange.
+           n
+(Lnf)(x) - E li(x) * f(xi)
+          i=0 -> polinom fundamental Lagrange
+          
+li(x) - (x - x0) (x - x1) (x - x2) ... | ... (x - xn) / (xi - xo) .... | ... (xi - xn) 
+| -  (x-xi)/ (xi - xi) - fara
+         
+(RnF)(x) = (x-xo) (x-x1) ... (x-xn) / (n + 1)! * f(x) deriv(n+1) - da precizia - important
+
+Interpolare Lagrange Baricentrica
+
+wj = 1 / Produs (xj - xi) i =0,n != j
+
+
+Algoritmul lui Aitken
+
+Pentru laborator 
+Interpolare LaGrange

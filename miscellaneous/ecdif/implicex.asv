@@ -1,3 +1,0 @@
-%implicex
-tspan=[pi/4,pi/2];
-[T,Y] = ode15i(@implic,tspan,sqrt(2),2);

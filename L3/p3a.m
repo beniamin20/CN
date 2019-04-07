@@ -19,7 +19,7 @@
  Sa se studieze conditionarea matricei Vandermonde Vn(t) 
  in raport cu norma Cebisev, n = 10-15.
  tk = -1 + k * 2/n
- 
+ norma cebishev modul de maxim
  cond (A, p=2) is defined as norm (A, p) * norm (inv (A), p)
  
  #}
