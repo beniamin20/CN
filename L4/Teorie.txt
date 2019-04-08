@@ -1,0 +1,3 @@
+https://en.wikipedia.org/wiki/Schur_complement
+https://en.wikipedia.org/wiki/Gaussian_elimination
+https://en.wikipedia.org/wiki/LU_decomposition

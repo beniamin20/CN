@@ -1,0 +1,88 @@
+# Sisteme de ecuatii. Metode iterative.
+
+Teorema de punct fix
+f(x), L - punct fix <=> f(L) = L
+Pentru a avea un punct fix functia f(x) trebuie sa fie contractie
+
+A * x = b <=> x = T * x + c
+x' - solutie initial aproximativa } x1 x2 x3 ... xn xn+1
+xk+1 = T * xk  +c                 } ne oprim ||xn+1 - xn || / || xn+2 || < Epsilon | ca si vector
+A - trebuie sa fie diagonal dominanta -> asigura convergenta
+
+# Metoda lui Jacobi
+                                  (n)                (n-1)    (n-1)        (n-1)
+a11x1 + a12x2 + ... a1nxn = b1 -> x1 = 1/a11 ( b1 - (a12x2 + a13x3 + ... + a1nxn)
+a21x1 + ......      a2nxn = b2 -> x2 = 1/a22 ( b2 - (a21x1 + a23x3 + ... + a2nxn)
+....
+anx1 + ........     annxn = bn -> xn = 1/ann ( bn - (an1x1 + an2x2 + ... + ann-1xn-1)
+
+xi = 1/aii ( bi - ( ))
+
+
+Exemplu 
+2x1 + x2       = 3
+x1  + 3x2 + x3 = 5
+      x2 + 2x3 = 3
+      
+x0
+0 - x10
+0 - x20
+0 - x30
+
+Iteratia 1
+x11 = 1/2 (3-x20) = 1.5
+x21 = 1/3 (5-x10-x30) = 1.66
+x31 = 1/2 (3-x2) = 1.5
+
+Iteratia 2
+x12 = 1/2 ( 3-x21) = 0.67
+x22 = 1/3 ( 5 - x11 - x31) = 0.66
+x32 = 1/2 ( 5 - x2) = 0.67
+
+Iteratia 3
+x13 = 1/2 ( 3 - 0.66) = 1.17
+x23 = 1/3 ( 5 - 0.67 - 0.67) = 1.22
+x33 = 1/2 ( 5 - 0.66) = 1.17
+
+GAUS - SEIDEL
+Ce am calculat deja sa folosim
+Daca am calculat deja o variabila cu o precizie mai buna o folosim deja
+De exemplu in calculul lui x2 sa folosim x1 abia calculat
+
+
+Metoda (SOR)
+xn+1 = xn + n
+xn+1 = (1-w) * xn + w * xn+1
+
+w apartine (0,1) - subrelaxare
+w apartine (1,2) - suprarelaxare
+
+
+# Matricial - optional?
+A*x = b
+A = M - N, A,M,N matrici, M - matrice usor inversabila
+(M - N) * x = b
+(M * x) = N * x + b
+x = M ^ -1 * N * x + M ^ -1 * b
+
+Jacobi
+A = D - L - U, D -diag, L - lower, U - upper
+x = D^-1 ( L + U) 
+xn+1 = D^-1 (L + U) 
+
+Gaus - Seidel
+A = D - L - U
+x = (D - L) ^ -1 * Ux + (D - L)^-1 * b
+
+TODO
+Jacobi, Gaus-Seidel, SOR
+Aplicabil la probleme
+
+La examen
+
+
+
+
+
+
+
