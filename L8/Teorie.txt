@@ -1,0 +1,8 @@
+Aproximare Spline
+spline [a,b,c,d] = spline(x,f,tip,[v1,v2])
+
+Evaluare spline
+y = evaluareSpline([a,b,c,d,x)
+
+Spline parametric 
+x,y - deseneaza curba

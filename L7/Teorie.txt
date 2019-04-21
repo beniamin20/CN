@@ -1,0 +1,17 @@
+Forma Newton a Polinom Interpolare Lagrange
+Pagina 13 Forma divizata
+Pagina 18 Forma Newton cu exemple
+Metoda lui Powel
+Polinomul lui Hermit
+Tabela cu diferente divizate
+
+[z,t] =  diffdivnd(x,f,fp)
+
+Cubica Hermit - Polinomul de grad 3
+
+Tabela cu diferente divizate
+Calcul Lagrange
+
+Tabela cu diferente divizate duble
+Calcul Hermit
+

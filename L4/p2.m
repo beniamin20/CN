@@ -1,11 +1,20 @@
 % Sa se implementeze descompunerea LUP
-function result = p2(A)
+function result = p2()
   A = getHardcodedMatrix();
   n = rows(A);
   b = getHardcodedB();
   
   [L,U,P]=LUP(A);
-
+  disp(L);
+  disp("");
+  disp(U);
+  disp("Sfarsit ale mele");
+  [LM,UM] = lu(A);
+  disp(LM);
+  disp("");
+  disp(UM);
+  disp("");
+  return;
   % Solve LY = B
   Y = [];
   for i = 1:n
@@ -50,8 +59,10 @@ function [L,U,P]=LUP(A)
       
       %Complement Schur
       lin=i+1:m;
+      %Imparte toate elem la pivot
       A(lin,i)=A(lin,i)/A(i,i);
-      A(lin,lin)=A(lin,lin)-A(lin,i)*A(i,lin);
+      % scade produsul dintre linia pivotului si coloana pivotului
+      A(lin,lin)=A(lin,lin) - A(lin,i)*A(i,lin);
   end;
 
   for i=1:m

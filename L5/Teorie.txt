@@ -78,8 +78,6 @@ TODO
 Jacobi, Gaus-Seidel, SOR
 Aplicabil la probleme
 
-La examen
-
 
 
 
