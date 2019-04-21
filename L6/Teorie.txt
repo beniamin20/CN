@@ -18,3 +18,10 @@ Algoritmul lui Aitken
 
 Pentru laborator 
 Interpolare LaGrange
+
+
+Tutorials
+Lagrange
+https://www.youtube.com/watch?v=vAgKE5wvR4Y
+https://www.youtube.com/watch?v=KcLeyWe0N1k&list=PLbxFfU5GKZz3D4NPYvvY7dvXiZ0awd4zn&index=10
+https://www.youtube.com/watch?v=vAgKE5wvR4Y
