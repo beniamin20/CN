@@ -1,0 +1,10 @@
+# Trapezoidal rule
+https://en.wikipedia.org/wiki/Trapezoidal_rule
+https://www.youtube.com/watch?v=8z6JRFvjkpc
+https://www.youtube.com/watch?v=RTX-ik_8i-k
+
+# Simpson's rule
+https://en.wikipedia.org/wiki/Simpson%27s_rule
+
+# Rectangle method
+https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Rectangle_method.html
