@@ -8,3 +8,9 @@ https://en.wikipedia.org/wiki/Simpson%27s_rule
 
 # Rectangle method
 https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Rectangle_method.html
+
+# Romberg
+https://www.youtube.com/watch?v=DZ8y6o3bUrM
+
+# Richardson Extrapolation Rule
+https://www.youtube.com/watch?v=i9xxITSH0_w
