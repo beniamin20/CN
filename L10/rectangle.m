@@ -4,7 +4,8 @@
   b - Definition interval end
   n - number of squares. Higher the n -> higher the precission.
  #}
-function result = rectangle(f,a,b,n)
+function result = rectangle(f,a,b)
+  n = 2;
   previous = solveUsingRectangle(f,a,b,n-1);
   while n <= 100
     current = solveUsingRectangle(f,a,b,n);

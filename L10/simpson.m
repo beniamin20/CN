@@ -5,7 +5,8 @@
   n - number of squares. Higher the n -> higher the precission. 
   !!! n MUST be even !!!
  #}
-function result = simpson(f,a,b,n)
+function result = simpson(f,a,b)
+  n = 4;
   previous = solveUsingSimpson(f,a,b,n-2);
   while n <= 100
     current = solveUsingSimpson(f,a,b,n);

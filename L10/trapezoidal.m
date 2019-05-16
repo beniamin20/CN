@@ -4,7 +4,8 @@
   b - Definition interval end
   n - number of squares. Higher the n -> higher the precission.
  #}
-function result = trapezoidal(f,a,b,n)
+function result = trapezoidal(f,a,b)
+  n = 2;
   previous = solveUsingTrapezoidal(f,a,b,n-1);
   while n <= 100
     current = solveUsingTrapezoidal(f,a,b,n);
