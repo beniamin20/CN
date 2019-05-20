@@ -1,0 +1,14 @@
+Metoda celor mai mici patrate. 
+mcmmp
+
+Rezolvarea unui sistem supradimensionat se numeste rezolvare in sensul celor mai mici patrate.
+[Z] * [c] = [y] - [Z] supradimensionat
+[Z transpus] * [Z] * [C] = [Z Transpus] * [y] = [C]
+
+c = mccmp(x,y,n) -  De facut.
+Pentru a calcula valoarea unui polinom intr-un punct z = polyval(c,xc)
+
+c = polyfit(x,y,n) - pentru verificare.
+
+Problema cu orbita
+Problema cu drumul
